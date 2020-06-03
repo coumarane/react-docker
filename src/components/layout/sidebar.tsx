@@ -16,13 +16,6 @@ const Sidebar: React.FC = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" activeClassName="active" to="/demo">
-                  <i className="fa fa-apple" />
-                  {``} Demo page
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
                 <NavLink className="nav-link" activeClassName="active" to="/contact">
                   <i className="fa fa-users" />
                   {``} Contact page

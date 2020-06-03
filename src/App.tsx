@@ -1,14 +1,13 @@
 import * as React from "react";
 import { BrowserRouter, Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import Header from "./components/layout/header";
+import Sidebar from "./components/layout/sidebar";
+import { AppRoutes } from "./AppRoutes";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./assets/styles/layout.scss";
-
-import Header from "./components/layout/header";
-import Sidebar from "./components/layout/sidebar";
-import { AppRoutes } from "./AppRoutes";
 
 const history = createBrowserHistory();
 

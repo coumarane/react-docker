@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Wrapper title={"Home"}>
-        <h1>Welcome to React app</h1>
+        <h1>Welcome to React app on Docker</h1>
       </Wrapper>
     </>
   );
